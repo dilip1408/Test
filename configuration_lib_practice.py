@@ -17,6 +17,7 @@ def getConfigDict():
     try:
         import ConfigParser as cp
         print("python 2")
+        print("test")
     except ImportError:
         import configparser as cp
         print("python 3")
