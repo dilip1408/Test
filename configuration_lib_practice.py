@@ -25,4 +25,5 @@ def getConfigDict():
     parser.read('database.config')
     print(parser.get('database_config', 'url'))
 
+
 getConfigDict()
